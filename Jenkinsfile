@@ -65,17 +65,19 @@ pipeline {
         always{
             emailext(
                 subject: "Pipeline status: ${BUILD_NUMBER}",
-                body: '''<html>
-                            <body>
-                                <p>Build Status: ${BUILD_STATUS}</p>
-                                <p>Build Number: ${BUILD_NUMBER}</p>
-                                <p>Check the <a href="${BUILD_URL}">Console output </a>.</p>
-                            </body>
-                        </html>''',
+                body: '''
+                <html>
+                    <body>
+                        <p>Build Status: ${BUILD_STATUS}</p>
+                        <p>Build Number: ${BUILD_NUMBER}</p>
+                        <p>Check the <a href="${BUILD_URL}">Console output </a>.</p>
+                    </body>
+                </html>
+                ''',
                 to: 'seifelfakharany011434431@gmail.com',
-/*                from: 'jenkins@example.com',
+                from: 'jenkins@example.com',
                 replyTo: 'jenkins@example.com',
-                mimeType: 'text/html'   */
+                mimeType: 'text/html'   
             )
         }
     }
