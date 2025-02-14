@@ -27,5 +27,7 @@
         docker pull seifalrahman/weather_app:latest
     - name: Cont3
       shell: |
+        docker stop WeatherAPP
+        docker rm WeatherAPP
         docker run -d -p 5000:5000 --name  WeatherAPP  seifalrahman/weather_app
         
