@@ -28,7 +28,7 @@ pipeline {
                 }
             }
         }
-        stage('Build Docker Image'){
+/*        stage('Build Docker Image'){
             steps{
                 script{
                     sh "ls"
@@ -59,7 +59,7 @@ pipeline {
         }
         
 
-        
+  */      
     }
     post{
         always{
@@ -73,9 +73,9 @@ pipeline {
                             </body>
                         </html>''',
                 to: 'seifelfakharany011434431@gmail.com',
-                from: 'jenkins@example.com',
+/*                from: 'jenkins@example.com',
                 replyTo: 'jenkins@example.com',
-                mimeType: 'text/html'
+                mimeType: 'text/html'   */
             )
         }
     }
