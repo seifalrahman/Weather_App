@@ -90,4 +90,8 @@ Results :
 ![Screenshot 2025-02-14 215405](https://github.com/user-attachments/assets/7fecbccc-2192-4a91-bb69-0c7fbcd38ec4)
 ![Screenshot 2025-02-14 215435](https://github.com/user-attachments/assets/6d1013ea-126d-4c68-9f26-6c1be4202475)
 
+Emails Sent: 
+![image](https://github.com/user-attachments/assets/b85dea12-bab2-4e2f-a828-1e0356ed9aa5)
+
+
 
